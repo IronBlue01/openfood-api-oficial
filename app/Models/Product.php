@@ -13,7 +13,6 @@ class Product extends Eloquent
     protected $hidden     = ['id','created_at','updated_at'];
     protected $connection = 'mongodb';
     protected $collection = 'product';
-    // protected $table      = 'products';
 
     protected $fillable = [
                             'code',
